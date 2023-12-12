@@ -1,0 +1,52 @@
+.header {
+    padding: 0 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: space-between; 
+}
+
+.header__logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header__nav {
+    display: flex;
+    color:white;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__link{
+    color:white;
+    text-decoration: none;
+
+}
+
+.header__avatar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__name{
+    color: white;
+
+}
+
+.header__avatar{
+
+}
+
+.header__logo-img{
+    width: 80px;
+}
+
+.header__avatar-image{
+    width: 50px;
+
+}
